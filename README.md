@@ -1,14 +1,13 @@
-# Watson Discovery News Crypto Sentiment Analysis
+# Use Watson Discovery News to analyze cryptocurrency sentiment
 
 In this example, we will use Watson Discovery News in order to query articles written about Bitcoin and visualize the sentiment of the articles. This should act as a baseline for integrating Watson Discovery into your own application. The use cases are endless, with Watson Discovery, and especially the "news" collection, you can harness the power of advanced queries in order to gain many insights.
 
 ![](doc/source/images/architecture.png)
 
 # Flow
-1. User signs up for IBM Cloud
-1. User creates an instance of Watson Discovery
-1. User creates new Watson Studio project with Jupyter Notebook
-1. The output of Watson Discovery News query is used in Jupyter Notebook to visualize the data
+1. User creates an instance of Watson Discovery.
+2. User run the provided Jupyter notebook with Watson Studio.
+3. The Jupyter notebook leverages Watson Discovery News to visualize data sentiment and date.
 
 # Included Components
 
@@ -20,11 +19,11 @@ In this example, we will use Watson Discovery News in order to query articles wr
 * [Jupyter Notebooks](http://jupyter.org/)
 * [Matplotlib](https://matplotlib.org/)
 
-# Steps to Follow
+# Steps
 
 ## Sign up for Watson Studio
 
-Sign up for IBM's [Watson Studio](https://dataplatform.ibm.com). After signing in, create a new, **basic** project – give it a name, and create a new object storage service if prompted (the **lite** option will work fine).
+Sign up for IBM's [Watson Studio](https://dataplatform.cloud.ibm.com). After signing in, create a new, **basic** project – give it a name, and create a new object storage service if prompted (the **lite** option will work fine).
 
 ## Allocate Discovery service
 
@@ -34,10 +33,10 @@ Head over to [IBM Cloud](http://bluemix.net/), if prompted, login with the same 
 
 From Watson Studio, navigate to the project you created previously.
 1. In the `Assets` tab, select the `Create notebook` option.
-1. Select the `From URL` tab.
-1. Enter a name for the notebook.
-1. Optionally, enter a description for the notebook.
-1. Enter this Notebook URL: https://raw.githubusercontent.com/IBM/crypto-discovery-news-sentiment-analysis/master/notebooks/crypto-analysis.ipynb
+2. Select the `From URL` tab.
+3. Enter a name for the notebook.
+4. Optionally, enter a description for the notebook.
+5. Enter this Notebook URL: https://raw.githubusercontent.com/IBM/crypto-discovery-news-sentiment-analysis/master/notebooks/crypto-analysis.ipynb
 
 ## Run the notebook
 
@@ -45,7 +44,9 @@ Once the notebook has been created, navigate to the cell with Watson Discovery c
 
 ## Example output
 
-See examples/example_notebook.ipynb
+See [examples/example_notebook.ipynb](examples/example_notebook.ipynb) for a full run of the notebook with output.
+
+> Below is a snapshot of the type of analysis performed, showing both sentiment and date for cryptocurrencies.
 
 ![](doc/source/images/example_output.png)
 
