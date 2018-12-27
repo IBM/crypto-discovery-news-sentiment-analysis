@@ -27,7 +27,7 @@ Sign up for IBM's [Watson Studio](https://dataplatform.cloud.ibm.com). After sig
 
 ## Allocate Discovery service
 
-Head over to [IBM Cloud](http://bluemix.net/), if prompted, login with the same credentials as above. From the dashboard, click **Create Resource** and search for "*Discovery*" in the catalog. Click on the Discovery card, and click **Create**.
+Head over to [IBM Cloud](https://cloud.ibm.com), if prompted, login with the same credentials as above. From the dashboard, click **Create Resource** and search for "*Discovery*" in the catalog. Click on the Discovery card, and click **Create**.
 
 ## Create Notebook
 
