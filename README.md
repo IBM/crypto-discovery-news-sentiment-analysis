@@ -1,3 +1,7 @@
+# WARNING: This repository is no longer maintained :warning:
+
+> This repository will not be updated. The repository will be kept available in read-only mode. 
+
 # Use Watson Discovery News to analyze cryptocurrency sentiment
 
 In this example, we will use Watson Discovery News in order to query articles written about Bitcoin and visualize the sentiment of the articles. This should act as a baseline for integrating Watson Discovery into your own application. The use cases are endless, with Watson Discovery, and especially the "news" collection, you can harness the power of advanced queries in order to gain many insights.
